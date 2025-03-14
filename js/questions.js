@@ -2,112 +2,57 @@ const questions = [
     {
         question: "How has social media affected mental health in teenagers?",
         options: [
-            "Increased anxiety and depression",
-            "Improved social connections",
-            "No significant impact",
-            "Only physical health effects"
-        ],
-        correct: 0,
-        difficulty: "medium"
-    },
-    {
-        question: "What is the main impact of AI on healthcare?",
-        options: [
-            "Higher treatment costs",
-            "Reduced doctor availability",
-            "Better disease diagnosis",
-            "Less patient privacy"
-        ],
-        correct: 2,
-        difficulty: "hard"
-    },
-    {
-        question: "How has remote work changed family life?",
-        options: [
-            "More family time",
-            "Increased stress",
-            "No real change",
-            "Less communication"
-        ],
-        correct: 0,
-        difficulty: "easy"
-    },
-    {
-        question: "What's the main effect of crypto mining?",
-        options: [
-            "Lower power usage",
-            "Better security",
-            "More e-waste",
-            "High energy consumption"
-        ],
-        correct: 3,
-        difficulty: "medium"
-    },
-    {
-        question: "How has tech changed education?",
-        options: [
-            "Less engagement",
-            "More flexibility",
-            "Higher costs",
-            "Reduced learning"
+            "Improved self-esteem and social connections",
+            "Increased anxiety and depression rates",
+            "No significant impact on mental health",
+            "Only affected physical health"
         ],
         correct: 1,
-        difficulty: "easy"
-    },
-    {
-        question: "Main concern with smart homes?",
-        options: [
-            "Data privacy risks",
-            "Complex setup",
-            "High power use",
-            "Limited features"
-        ],
-        correct: 0,
         difficulty: "medium"
     },
     {
-        question: "How has streaming changed media?",
+        question: "What is the main impact of artificial intelligence on healthcare?",
         options: [
-            "Higher costs",
-            "Less variety",
-            "On-demand viewing",
-            "Reduced quality"
-        ],
-        correct: 2,
-        difficulty: "easy"
-    },
-    {
-        question: "Impact of automation on jobs?",
-        options: [
-            "Total job loss",
-            "Job transformation",
-            "No effect",
-            "More manual work"
+            "Reduced doctor-patient relationships",
+            "Improved disease diagnosis and treatment planning",
+            "Increased healthcare costs",
+            "Decreased medical accuracy"
         ],
         correct: 1,
         difficulty: "hard"
     },
     {
-        question: "Effect of mobile tech on society?",
+        question: "How has remote work technology changed family dynamics?",
         options: [
-            "Better focus",
-            "Less social",
-            "Always connected",
-            "No real change"
+            "Decreased work-life balance",
+            "Improved work-life integration",
+            "No impact on family life",
+            "Increased commuting time"
         ],
-        correct: 2,
+        correct: 1,
+        difficulty: "easy"
+    },
+    {
+        question: "What is the primary environmental impact of cryptocurrency mining?",
+        options: [
+            "Reduced carbon emissions",
+            "Significant energy consumption",
+            "Improved air quality",
+            "Decreased electronic waste"
+        ],
+        correct: 1,
         difficulty: "medium"
     },
     {
-        question: "Main benefit of VR in education?",
+        question: "How has educational technology affected learning outcomes?",
         options: [
-            "Lower costs",
-            "Less distraction",
-            "Better focus",
-            "Hands-on learning"
+            "Decreased student engagement",
+            "Enabled personalized learning experiences",
+            "Eliminated traditional teaching methods",
+            "Reduced academic performance"
         ],
-        correct: 3,
-        difficulty: "hard"
+        correct: 1,
+        difficulty: "easy"
     },
     {
         question: "What is the main privacy concern with smart home devices?",
@@ -1043,163 +988,53 @@ const questions = [
         ],
         correct: 1,
         difficulty: "hard"
-    },
-    {
-        question: "Impact of digital marketing?",
-        options: [
-            "Targeted ads",
-            "Less reach",
-            "Higher costs",
-            "No effect"
-        ],
-        correct: 0,
-        difficulty: "medium"
-    },
-    {
-        question: "Main cybersecurity threat?",
-        options: [
-            "Power loss",
-            "Data theft",
-            "Slow speeds",
-            "High costs"
-        ],
-        correct: 1,
-        difficulty: "hard"
-    },
-    {
-        question: "Benefit of voice control?",
-        options: [
-            "More errors",
-            "High costs",
-            "Hands-free use",
-            "Less privacy"
-        ],
-        correct: 2,
-        difficulty: "medium"
-    },
-    {
-        question: "Cloud gaming advantage?",
-        options: [
-            "Slower games",
-            "Less storage",
-            "More costs",
-            "Play anywhere"
-        ],
-        correct: 3,
-        difficulty: "easy"
-    },
-    {
-        question: "AR in retail impact?",
-        options: [
-            "Virtual try-on",
-            "Higher prices",
-            "Less choice",
-            "More returns"
-        ],
-        correct: 0,
-        difficulty: "medium"
-    },
-    {
-        question: "Smart city benefit?",
-        options: [
-            "More costs",
-            "Better services",
-            "Less privacy",
-            "Power waste"
-        ],
-        correct: 1,
-        difficulty: "hard"
-    },
-    {
-        question: "Effect of AI in art?",
-        options: [
-            "Less creative",
-            "No changes",
-            "New styles",
-            "Higher costs"
-        ],
-        correct: 2,
-        difficulty: "medium"
-    },
-    {
-        question: "Impact of robotics?",
-        options: [
-            "Job loss",
-            "More errors",
-            "High costs",
-            "Better safety"
-        ],
-        correct: 3,
-        difficulty: "hard"
-    },
-    {
-        question: "Digital health effect?",
-        options: [
-            "Better care",
-            "More costs",
-            "Less access",
-            "No change"
-        ],
-        correct: 0,
-        difficulty: "medium"
-    },
-    {
-        question: "Smart farming impact?",
-        options: [
-            "Water waste",
-            "Better yields",
-            "High costs",
-            "Less control"
-        ],
-        correct: 1,
-        difficulty: "easy"
     }
 ];
 
 // Add wild card questions - mix of very easy and very challenging
 const wildCardQuestions = [
     {
-        question: "What is binary data?",
+        question: "What is the most basic form of digital data?",
         options: [
-            "1s and 0s",
-            "Text only",
-            "Pictures",
-            "Sound"
+            "Binary (1s and 0s)",
+            "Text files",
+            "Images",
+            "Sound waves"
         ],
         correct: 0,
         difficulty: "easy"
     },
     {
-        question: "AI weapons main concern?",
+        question: "What complex ethical implications arise from the development of autonomous weapons systems powered by AI?",
         options: [
-            "High costs",
-            "Low accuracy",
-            "Ethical issues",
-            "Power use"
+            "Only maintenance costs matter",
+            "The intersection of machine decision-making in warfare, accountability, and human rights",
+            "Just the technical specifications",
+            "Only the manufacturing process"
         ],
-        correct: 2,
+        correct: 1,
         difficulty: "hard"
     },
     {
-        question: "What does WWW mean?",
+        question: "What does 'www' stand for in a website address?",
         options: [
-            "Web Width World",
             "World Wide Web",
-            "Wide Web World",
+            "World Web Width",
+            "Wide World Web",
             "Web World Wide"
         ],
-        correct: 1,
+        correct: 0,
         difficulty: "easy"
     },
     {
-        question: "Quantum computing impact?",
+        question: "Analyze the potential societal implications of quantum computing on current cryptography and data security.",
         options: [
-            "Slower speed",
-            "More errors",
-            "Less secure",
-            "New security"
+            "Only affects computer speed",
+            "No significant impact",
+            "Could render current encryption methods obsolete and reshape digital security paradigms",
+            "Just makes computers smaller"
         ],
-        correct: 3,
+        correct: 2,
         difficulty: "hard"
     }
 ];

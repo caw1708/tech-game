@@ -187,7 +187,7 @@ class Game {
         // Add difficulty and reward info at the top
         let moveSpaces;
         if (this.isWildCardQuestion) {
-            moveSpaces = 3; // Always move 3 spaces for wild card questions
+            moveSpaces = this.currentQuestionDifficulty === 'hard' ? 4 : 3;
         } else {
             moveSpaces = this.currentQuestionDifficulty === 'easy' ? 1 : 
                         this.currentQuestionDifficulty === 'medium' ? 2 : 3;
@@ -271,7 +271,7 @@ class Game {
                 const oldPosition = this.players[this.currentPlayer].position;
                 let moveSpaces;
                 if (this.isWildCardQuestion) {
-                    moveSpaces = 3; // Always move 3 spaces for wild card questions
+                    moveSpaces = this.currentQuestionDifficulty === 'hard' ? 4 : 3;
                 } else {
                     moveSpaces = this.currentQuestionDifficulty === 'easy' ? 1 : 
                                 this.currentQuestionDifficulty === 'medium' ? 2 : 3;
