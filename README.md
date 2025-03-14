@@ -1,22 +1,43 @@
 # Tech Impact Journey
 
-A multiplayer board game that combines learning with fun! Players move across the board by answering questions correctly, with special wild card spaces that give players a chance to review and master previously missed questions.
+A multiplayer quiz game about technology's impact on society. Test your knowledge about how technology has changed various aspects of our lives, from healthcare to education, from environmental impact to social interactions.
+
+## Play the Game
+
+Visit [https://caw1708.github.io/tech-game/](https://caw1708.github.io/tech-game/) to play the game.
 
 ## Features
 
-- Local multiplayer support (2-4 players)
-- Three difficulty levels (Easy, Medium, Hard)
-- Wild card spaces for reviewing missed questions
-- Beautiful, animated UI with Kahoot-style design
-- Responsive layout that works on all devices
+- Multiplayer support (2-4 players)
+- Various difficulty levels
+- Wide range of technology-related questions
+- Interactive board game experience
+- Wild card challenges
+- Learning about technology's impact on society
 
 ## How to Play
 
 1. Select the number of players (2-4)
 2. Enter player names
 3. Take turns answering questions
-4. Land on wild card spaces to review previously missed questions
-5. First player to reach the end wins!
+4. Move forward when answering correctly
+5. Land on wild card spaces for special challenges
+6. First player to reach the end wins!
+
+## Local Development
+
+To run the game locally:
+
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start playing!
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Responsive Design
 
 ## Question Difficulties
 
